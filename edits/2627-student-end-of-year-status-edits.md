@@ -3,7 +3,7 @@
 Source: https://www.fldoe.org/file/20909/2627seoy.pdf
 Manual: Student Database 2026-2027
 
-This document covers 47 edits across four categories: Reject Rules (record rejected), State Validation (cross-format matching), Exception Reports (advisory), and an Aggregate Exception Report (school-level count). Edit numbering is non-sequential; Reject Rules run 1-2, 4-9, 12-18, 20-26, 28, 32, 34, 37, 2A-2D, 2P, 3C-3D, 3I-3L, 3Q-3Z (note: Edit 3U is marked DELETED 07/01/25 and Edit 3V is UPDATED 06/04/2026), State Validation runs 41-45, 47, 49, 4A-4B, 4D, 4H-4O, Exception Reports are 50 and 5A, and the Aggregate Exception Report is 80.
+This document covers 47 edits across four categories: Reject Rules (record rejected), State Validation (cross-format matching), Exception Reports (advisory), and an Aggregate Exception Report (school-level count). Edit numbering is non-sequential; Reject Rules run 1-2, 4-9, 12-18, 20-26, 28, 32, 34, 37, 2A-2D, 2P, 3C-3D, 3I-3L, 3Q-3T, 3V-3Z (note: Edit 3V is UPDATED 06/04/2026), State Validation runs 41-45, 47, 49, 4A-4B, 4D, 4H-4O, Exception Reports are 50 and 5A, and the Aggregate Exception Report is 80.
 
 ---
 
@@ -264,9 +264,6 @@ If Withdrawal Reason is W05 or W26, Grade Level must not be PK-05.
 **Result:** Record rejected
 
 **District Responsibility:** If the rejected record should not have been submitted, no action is required. However, if the district wishes the data in the rejected record to be loaded to the database, the district must correct the record so that the appropriate relationship exists between Withdrawal Reason and Grade Level and resubmit the record.
-
-### 3U. *(DELETED 07/01/2025)*
-Edit 3U (Withdrawal Reason W26 restriction for Grade PK-5) was deleted effective 07/01/2025. Its logic is now incorporated into Edit 3T.
 
 ### 3V. Grade Promotion Status D requires Grade Level 12 and valid Withdrawal Reason or WD1 Diploma *(Updated 06/04/2026)*
 If Grade Promotion Status = D, then Grade Level must equal 12 and Withdrawal Reason must be W01, W02 or W3A, or Diploma Type must equal WD1.
